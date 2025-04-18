@@ -1,7 +1,36 @@
 {
   "expo": {
+    "userInterfaceStyle": "automatic",
+    "scheme": "ilyim",
     "name": "ilyim",
     "slug": "ilyim",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "plugins": [
+      "expo-router"
+    ],
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.abuaslam.ilyim"
+    },
+    "ios": {
+      "icon": "./assets/icon.png"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f7ef92f9-c081-44e1-95ab-9ee667c0d8c6"
+      }
+    }
   }
 }
